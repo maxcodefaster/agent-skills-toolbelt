@@ -80,6 +80,25 @@ OpenCode discovers the installed definitions and loads them through its native
 configuration feature, so this harness-agnostic repository does not create
 slash-command wrappers.
 
+### Always-on unslop in OpenCode
+
+Agent Skills are loaded on demand. The phrase `Must always apply` in a skill's
+description cannot force OpenCode to load it on every turn. To make `unslop`
+part of every OpenCode session, add its installed file to the global
+`instructions` array in `~/.config/opencode/opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["~/.agents/skills/unslop/SKILL.md"]
+}
+```
+
+Merge this field into any existing config rather than replacing other settings.
+Restart OpenCode after changing the config. The regular skill remains available
+for explicit rewriting requests; the instruction entry applies its writing
+rules to every response.
+
 ## Repository layout
 
 Each directory under `skills/` is a standalone package:
