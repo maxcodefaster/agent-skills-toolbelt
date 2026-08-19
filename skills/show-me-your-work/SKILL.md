@@ -1,6 +1,6 @@
 ---
 name: show-me-your-work
-description: "Keep a reviewable TSV decision trail for long-running or unattended work. Use only when explicitly invoked with /show-me-your-work or a direct request for an audit trail."
+description: "Keep a reviewable TSV decision trail for long-running or unattended work. Use only when the user explicitly requests show-me-your-work or asks for an audit trail."
 license: MIT, see LICENSE
 metadata:
   source: backnotprop/pstack

@@ -9,8 +9,6 @@ better planning, root-cause debugging, parallel problem-solving, safer reviews,
 and an audit trail when work runs unattended. I recommend using it as a strong
 starting point, then adapting the skills to match how you build software.
 
-[![Agent Skills](https://skills.sh/b/maxcodefaster/agent-skills-toolbelt)](https://skills.sh/maxcodefaster/agent-skills-toolbelt)
-
 ## Skills
 
 | Skill | Use it for |
@@ -66,6 +64,22 @@ The skills CLI chooses the supported skill directory for each selected agent.
 Restart OpenCode after installation so a running session sees the new
 definitions.
 
+## Invoke
+
+Agent Skills do not define one universal command syntax. Invoke the same skill
+using the mechanism provided by your agent:
+
+| Agent | Example |
+| --- | --- |
+| OpenCode | `Use the grill-with-docs skill for this plan.` |
+| Codex | `$grill-with-docs` |
+| Claude Code | `/grill-with-docs` |
+
+OpenCode discovers the installed definitions and loads them through its native
+`skill` tool. A slash command in OpenCode is a separate, OpenCode-specific
+configuration feature, so this harness-agnostic repository does not create
+slash-command wrappers.
+
 ## Repository layout
 
 Each directory under `skills/` is a standalone package:
@@ -90,6 +104,10 @@ This collection carries selected skills from
 [`mattpocock/skills`](https://github.com/mattpocock/skills). Both sources are
 MIT licensed. The only changes make harness-specific instructions portable.
 See [NOTICE.md](NOTICE.md) for per-skill attribution.
+
+Each skill carries its own `LICENSE` because installers copy skill directories
+independently and do not include this repository's root files. This keeps the
+required upstream MIT notice with every installed copy.
 
 ## License
 

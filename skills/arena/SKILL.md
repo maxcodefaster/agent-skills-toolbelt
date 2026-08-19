@@ -1,6 +1,6 @@
 ---
 name: arena
-description: "Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it. Use only when explicitly invoked with /arena, 'arena this', or 'throw it in the arena'."
+description: "Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it. Use only when the user explicitly requests arena, says 'arena this', or says 'throw it in the arena'."
 license: MIT, see LICENSE
 metadata:
   source: backnotprop/pstack
