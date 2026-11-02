@@ -1,0 +1,9 @@
+{
+  "name": "agent-skills-toolbelt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs && node scripts/catalog.mjs --check",
+    "catalog": "node scripts/catalog.mjs"
+  }
+}

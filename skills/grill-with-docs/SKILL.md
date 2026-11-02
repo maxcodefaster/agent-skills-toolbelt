@@ -1,6 +1,7 @@
 ---
 name: grill-with-docs
 description: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. Use only when the user explicitly invokes grill-with-docs.
+disable-model-invocation: true
 license: MIT, see LICENSE
 metadata:
   source: mattpocock/skills

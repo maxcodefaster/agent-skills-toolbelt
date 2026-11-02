@@ -1,6 +1,7 @@
 ---
 name: arena
 description: "Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it. Use only when the user explicitly requests arena, says 'arena this', or says 'throw it in the arena'."
+disable-model-invocation: true
 license: MIT, see LICENSE
 metadata:
   source: backnotprop/pstack

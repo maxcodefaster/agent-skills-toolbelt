@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "skill": "arena",
+      "repository": "backnotprop/pstack",
+      "revision": "6c75f4e67546c2ddbf9634734c1e3ebbea34861a",
+      "path": "skills/arena"
+    },
+    {
+      "skill": "blast-radius",
+      "repository": "backnotprop/pstack",
+      "revision": "6c75f4e67546c2ddbf9634734c1e3ebbea34861a",
+      "path": "skills/blast-radius"
+    },
+    {
+      "skill": "bro",
+      "repository": "backnotprop/pstack",
+      "revision": "6c75f4e67546c2ddbf9634734c1e3ebbea34861a",
+      "path": "skills/bro"
+    },
+    {
+      "skill": "diagnosing-bugs",
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "path": "skills/engineering/diagnosing-bugs"
+    },
+    {
+      "skill": "domain-modeling",
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "path": "skills/engineering/domain-modeling"
+    },
+    {
+      "skill": "grill-with-docs",
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "path": "skills/engineering/grill-with-docs"
+    },
+    {
+      "skill": "grilling",
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "path": "skills/productivity/grilling"
+    },
+    {
+      "skill": "show-me-your-work",
+      "repository": "backnotprop/pstack",
+      "revision": "6c75f4e67546c2ddbf9634734c1e3ebbea34861a",
+      "path": "skills/show-me-your-work"
+    },
+    {
+      "skill": "unslop",
+      "repository": "backnotprop/pstack",
+      "revision": "6c75f4e67546c2ddbf9634734c1e3ebbea34861a",
+      "path": "skills/unslop"
+    },
+    {
+      "skill": "wizard",
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "path": "skills/engineering/wizard"
+    },
+    {
+      "skill": "impeccable",
+      "repository": "pbakaus/impeccable",
+      "revision": "9c3808ba441337fce03b3e34aa06efc434503162",
+      "path": ".agents/skills/impeccable"
+    }
+  ]
+}

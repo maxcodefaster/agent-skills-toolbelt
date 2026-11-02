@@ -1,0 +1,161 @@
+{
+  "skills": [
+    {
+      "name": "arena",
+      "version": "df643eda5c5d71ded16029c55ec4f3ea1f5c7b0632467c1d328407f6414f7b2a",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "blast-radius",
+      "version": "d2f8a95b56c9f16771b4f60f0cef6a76c7bc41a1b02d9ccadf0028327652123b",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "bro",
+      "version": "b17e8369df2903e866fe05d0bf789905ff74cd52ca3619abba38aeb3a0b4e7c2",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "diagnosing-bugs",
+      "version": "cecc00afdc26c17ccbb1d6c9100d236b13ffb62d732ade3270ced466b85bedcb",
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "scripts/hitl-loop.template.sh"
+      ]
+    },
+    {
+      "name": "domain-modeling",
+      "version": "e6bad4e2a32a70bb3d6a4dc2045cf548f00fe94940baf3de349db2a06f212d3f",
+      "files": [
+        "ADR-FORMAT.md",
+        "GLOSSARY-FORMAT.md",
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "grill-with-docs",
+      "version": "d4b426d08ebe67d6581991cbe627cd72864e564a5700bc11a9f87867ae9992f1",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "grilling",
+      "version": "e53e472fd13cd403579cfa53f2a609c71efc165d81638a584a034fdb39e5d6f8",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "impeccable",
+      "version": "7079186b775a23f32e3d1d12cb38639a47978198e1ab8f03abc77be5a01eec69",
+      "files": [
+        "LICENSE",
+        "NOTICE.md",
+        "SKILL.md",
+        "agents/impeccable_asset_producer.toml",
+        "agents/impeccable_documenter.toml",
+        "agents/impeccable_finish_reviewer.toml",
+        "agents/impeccable_manual_edit_applier.toml",
+        "agents/openai.yaml",
+        "reference/adapt.md",
+        "reference/adapt.native.md",
+        "reference/android.md",
+        "reference/animate.md",
+        "reference/audit.md",
+        "reference/audit.native.md",
+        "reference/bolder.md",
+        "reference/clarify.md",
+        "reference/colorize.md",
+        "reference/component-review.md",
+        "reference/craft-floor.md",
+        "reference/craft.md",
+        "reference/critique.md",
+        "reference/degraded/asset-producer.md",
+        "reference/degraded/documenter.md",
+        "reference/degraded/finish-reviewer.md",
+        "reference/degraded/manual-edit-applier.md",
+        "reference/delight.md",
+        "reference/distill.md",
+        "reference/doctor.md",
+        "reference/document.md",
+        "reference/extract.md",
+        "reference/generate.md",
+        "reference/harden.md",
+        "reference/hooks.md",
+        "reference/init.md",
+        "reference/ios.md",
+        "reference/layout.md",
+        "reference/live-setup.md",
+        "reference/live.md",
+        "reference/mode-operate.md",
+        "reference/mode-persuade.md",
+        "reference/mode-read.md",
+        "reference/new-work.md",
+        "reference/onboard.md",
+        "reference/operate.md",
+        "reference/optimize.md",
+        "reference/overdrive.md",
+        "reference/polish.md",
+        "reference/quieter.md",
+        "reference/region-map.md",
+        "reference/routing.md",
+        "reference/shape.md",
+        "reference/typeset.md",
+        "reference/visualize.md",
+        "scripts/VERSION",
+        "scripts/command-metadata.json",
+        "scripts/data/font-index-failures.json",
+        "scripts/data/font-index.json",
+        "scripts/engine-checksums.txt",
+        "scripts/impeccable",
+        "scripts/impeccable.cmd",
+        "scripts/live-browser-dom.js",
+        "scripts/live-browser-ignores.js",
+        "scripts/live-browser-session.js",
+        "scripts/live-browser.js",
+        "scripts/modern-screenshot.umd.js"
+      ]
+    },
+    {
+      "name": "show-me-your-work",
+      "version": "36eddf820ce835a1e1714d33a0002a87164f833df9f9a44e87cba9f88d37e20b",
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "references/decision-log-template.tsv",
+        "scripts/log.sh"
+      ]
+    },
+    {
+      "name": "unslop",
+      "version": "f39ffff3c4bf2287892ddfee565f7902b4189e45d929d31778c24213043e6d9e",
+      "files": [
+        "LICENSE",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "wizard",
+      "version": "98120aacfaf6608a7fbd0aee626a0e314599e03621d23413f848be5bd9d8ed18",
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "template.sh"
+      ]
+    }
+  ]
+}
